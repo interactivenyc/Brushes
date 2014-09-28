@@ -10,6 +10,7 @@
 //
 
 #import "WDGLUtilities.h"
+#include <OpenGLES/ES2/gl.h>
 
 void WDGLBuildQuadForRect(CGRect rect, CGAffineTransform transform, GLuint *quadVAO, GLuint *quadVBO)
 {

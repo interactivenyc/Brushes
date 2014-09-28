@@ -13,6 +13,7 @@
 #import "WDGLUtilities.h"
 #import "WDTexture.h"
 #import "WDShader.h"
+#include <OpenGLES/ES2/gl.h>
 
 @interface WDShadowQuad ()
 @property (nonatomic) WDTexture *texture;
